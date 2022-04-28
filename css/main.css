@@ -50,6 +50,7 @@ p {
 /*The widths are in a percentage!*/
 header {
 	/* height: 110px; */
+	width: 100%;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	display: flex;
@@ -61,6 +62,7 @@ header {
 
 header h1 {
 	/* float: left; */
+	width: 100%;
 	margin: 0;
 	padding: 38px 0;
 }
@@ -70,6 +72,7 @@ header h1 span {
 
 header nav {
 	/* float: right; */
+	width: 100%;
 	padding: 46px 0;
 }
 header nav ul {
@@ -86,7 +89,12 @@ header nav ul li {
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
+
 
 /*The widths are in a percentage!*/
 .top-section,
@@ -98,6 +106,15 @@ header nav ul li a{
 	align-items: center;
 	flex-flow: row wrap;
 	align-items: flex-start;
+}
+
+.bottom-section > div {
+	width: 100%;
+}
+
+.bottom-section > div:nth-child(2) {
+	border-left: none;
+	border-right: none;
 }
 
 .main-image {
@@ -185,4 +202,24 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 0.875em;
+}
+
+/* ----------- For screens 768px and larger ----------- */
+@media (min-width: 768px) {
+	.bottom-section > div {
+		width: 33%;
+	}
+
+	.bottom-section > div:nth-child(2) {
+		border-left: auto;
+		border-right: auto;
+	}
+}
+
+/* ----------- For screens 1200px wide and larger----------- */
+@media (min-width: 1200px) {
+  header nav li {
+    display: inline;
+	float: right;
+  }
 }
