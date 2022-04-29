@@ -1,225 +1,225 @@
 html {
-	font-size: 16px;
+  font-size: 16px;
 }
-
 
 body {
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-	font-size: 1em;
-	align-items: flex-start;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  font-size: 1em;
+  align-items: flex-start;
 }
 
-
-.container{
-	max-width: 1200px;
-	width: 90%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-	align-items: flex-start;
+.container {
+  max-width: 1200px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  align-items: flex-start;
 }
 
 h1,
 h2,
 h3 {
-	color: black;
-	text-transform: uppercase;
-	font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 h1 {
-	font-size: 1.875em;
+  font-size: 1.875em;
+  text-align: center;
 }
 h2 {
-	font-size: 1.125em;
+  font-size: 1.125em;
 }
 h3 {
-	font-size: 0.75em;
+  font-size: 0.75em;
 }
 
 p {
-	font-size: 0.875em;
-	line-height: 21px;
-    padding: 0 30px;
+  font-size: 0.875em;
+  line-height: 21px;
+  padding: 0 30px;
 }
 
 /*The widths are in a percentage!*/
 header {
-	/* height: 110px; */
-	width: 100%;
-	border-bottom: 3px solid #77a466;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-	align-items: flex-start;
+  /* height: 110px; */
+  width: 100%;
+  border-bottom: 3px solid #77a466;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  align-items: flex-start;
 }
 
 header h1 {
-	/* float: left; */
-	width: 100%;
-	margin: 0;
-	padding: 38px 0;
+  /* float: left; */
+  width: 100%;
+  margin: 0;
+  padding: 38px 0;
 }
 header h1 span {
-	color: #77a466;
+  color: #77a466;
 }
 
 header nav {
-	/* float: right; */
-	width: 100%;
-	padding: 46px 0;
+  /* float: right; */
+  width: 100%;
+  padding: 46px 0;
 }
 header nav ul {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 header nav ul li {
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 0.875em;
-	padding: 0 10px;
-	display: inline;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.875em;
+  padding: 0 10px;
+  display: inline;
 }
-header nav ul li a{
-	text-decoration: none;
-	color:#77a466;
-	display: block;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+header nav ul li a {
+  text-decoration: none;
+  color: #77a466;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
 
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-	margin: 0 auto;
-	/* clear: both; */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-	align-items: flex-start;
+  margin: 0 auto;
+  /* clear: both; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  align-items: flex-start;
 }
 
 .bottom-section > div {
-	width: 100%;
+  width: 100%;
 }
 
-.bottom-section > div:nth-child(2) {
-	border-left: none;
-	border-right: none;
+.bottom-section > p {
+  padding-left: none;
 }
 
-.main-image {
-	/* height: auto; */
-	/* float: left; */
-}
 .main-image img {
-	width: 100%;
-	border-bottom: 3px solid #77a466;
+  width: 100%;
+  border-bottom: 3px solid #77a466;
 }
 
-.main-title {
-	/* height: auto; */
-	/* float: left; */
-}
 .main-title h2 {
-	text-align: left;
-	padding: 5px 0;
-	color: #77a466;
+  text-align: left;
+  padding: 5px 0;
+  color: #77a466;
 }
 .main-title p {
-	padding: 0;
-	font-size: 1em;
-	line-height: 25px;
+  padding: 0;
+  font-size: 1em;
+  line-height: 25px;
 }
 
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
-	/* height: auto; */
-	/* float: left; */
-	border-top: 1px solid #eee;
+  width: 33%;
+  /* height: auto; */
+  /* float: left; */
+  border-top: 1px solid #eee;
 }
 
 .section-one h3 {
-	padding: 10px 0;
+  padding: 10px 0;
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+  border-left: none;
+  border-right: none;
 }
 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+  padding: 10px 30px;
 }
 
 .menu {
-	list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 }
 .menu li {
-	padding: 10px 0;
-	color:#77a466;
+  padding: 10px 0;
+  color: #77a466;
 }
 
 .reviews {
-	color: #333;
-	font-size: 1em;
-	line-height: 21px;
+  color: #333;
+  font-size: 1em;
+  line-height: 21px;
 }
 
 .address {
-	font-size: 1em;
-	line-height: 24px;
+  font-size: 1em;
+  line-height: 24px;
 }
 
 /*The widths are in a percentage!*/
 footer {
-	/* height: 50px; */
-	border-top: 3px solid #eee;
-	margin: 0 auto;
-	/* clear: both; */
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-	align-items: flex-start;
+  /* height: 50px; */
+  width: 100%;
+  border-top: 3px solid #eee;
+  margin: 0 auto;
+  /* clear: both; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  align-items: flex-start;
 }
 footer span {
-	font-family: 'Galada', cursive;
-	text-transform: lowercase;
-	color: #77a466;
-	font-size: 0.875em;
+  font-family: "Galada", cursive;
+  text-transform: lowercase;
+  color: #77a466;
+  font-size: 0.875em;
 }
 
 /* ----------- For screens 768px and larger ----------- */
 @media (min-width: 768px) {
-	.bottom-section > div {
-		width: 33%;
-	}
+  .bottom-section > div {
+    width: 33%;
+  }
 
-	.bottom-section > div:nth-child(2) {
-		border-left: auto;
-		border-right: auto;
-	}
+  .bottom-section > p {
+    padding: 0 30px;
+  }
+
+  .section-two {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+  }
+  h1 {
+    text-align: left;
+  }
 }
 
 /* ----------- For screens 1200px wide and larger----------- */
 @media (min-width: 1200px) {
-  header nav li {
-    display: inline;
-	float: right;
+  header nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header h1 nav {
+	  width: 50%;
   }
 }
