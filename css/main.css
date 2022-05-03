@@ -60,7 +60,6 @@ header {
 }
 
 header h1 {
-  /* float: left; */
   width: 100%;
   margin: 0;
   padding: 38px 0;
@@ -70,7 +69,6 @@ header h1 span {
 }
 
 header nav {
-  /* float: right; */
   width: 100%;
   padding: 46px 0;
 }
@@ -110,8 +108,8 @@ header nav ul li a {
   width: 100%;
 }
 
-.bottom-section > p {
-  padding-left: none;
+.bottom-section p {
+  padding-left: 0;
 }
 
 .main-image img {
@@ -150,7 +148,7 @@ header nav ul li a {
 
 .section-two h3,
 .section-three h3 {
-  padding: 10px 30px;
+  padding: 10px 0px;
 }
 
 .menu {
@@ -200,7 +198,7 @@ footer span {
     width: 33%;
   }
 
-  .bottom-section > p {
+  .bottom-section p h3{
     padding: 0 30px;
   }
 
@@ -219,7 +217,13 @@ footer span {
     display: flex;
     justify-content: flex-end;
   }
-  header h1 nav {
+  header h1 {
 	  width: 50%;
+  }
+  header nav {
+	  width: 50%;
+  }
+  h1 {
+    text-align: left;
   }
 }
