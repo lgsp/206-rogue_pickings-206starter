@@ -198,7 +198,8 @@ footer span {
     width: 33%;
   }
 
-  .bottom-section p h3{
+  .bottom-section h3, 
+  .bottom-section p {
     padding: 0 30px;
   }
 
